@@ -124,6 +124,8 @@ exports.getMinActions = function (fromJson, toJson) {
           parent: toParent
         })
         _diff(tree[child], STATUS_MOV)
+      } else if (status === STATUS_DEL) {
+        _diff(tree[child], STATUS_DEL)
       // 无操作
       } else {
         _diff(tree[child], STATUS_STAY)

@@ -54,4 +54,3 @@ co(function * () {
 })
 
 function * empty () {}
-

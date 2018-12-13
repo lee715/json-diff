@@ -1,0 +1,29 @@
+{
+  "name": "json-diff",
+  "version": "1.0.0",
+  "description": "tree diff",
+  "main": "diff.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee715/json-diff.git"
+  },
+  "keywords": [
+    "tree",
+    "diff"
+  ],
+  "author": "lee715",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lee715/json-diff/issues"
+  },
+  "homepage": "https://github.com/lee715/json-diff#readme",
+  "devDependencies": {
+    "co": "^4.6.0"
+  }
+}
